@@ -1,0 +1,98 @@
+export const initialNodes = [
+  {
+    id: 'host_bridge',
+    type: 'architectureNode',
+    position: { x: 40, y: 120 },
+    data: {
+      nodeId: 'host_bridge',
+      title: 'Laptop Host Bridge',
+      subtitle: 'Windows 11 Dev Station',
+      category: 'HOST',
+      iconName: 'Laptop',
+    },
+  },
+  {
+    id: 'semaphore_cicd',
+    type: 'architectureNode',
+    position: { x: 40, y: 440 },
+    data: {
+      nodeId: 'semaphore_cicd',
+      title: 'Semaphore CI/CD',
+      subtitle: 'Port 3000 (Pure-Go Server)',
+      category: 'ORCHESTRATOR',
+      iconName: 'Sliders',
+    },
+  },
+  {
+    id: 'android_device',
+    type: 'architectureNode',
+    position: { x: 440, y: 120 },
+    data: {
+      nodeId: 'android_device',
+      title: 'Galaxy Note 10+ 5G',
+      subtitle: 'Serial: R3CM8105TPA',
+      category: 'DEVICE',
+      iconName: 'Smartphone',
+    },
+  },
+  {
+    id: 'binance_ws',
+    type: 'architectureNode',
+    position: { x: 440, y: 440 },
+    data: {
+      nodeId: 'binance_ws',
+      title: 'Binance App WebSocket',
+      subtitle: 'Kline Stream (Android)',
+      category: 'MARKET_STREAM',
+      iconName: 'Zap',
+    },
+  },
+  {
+    id: 'spring_boot',
+    type: 'architectureNode',
+    position: { x: 840, y: 120 },
+    data: {
+      nodeId: 'spring_boot',
+      title: 'Spring Boot Backend',
+      subtitle: 'Monolith Service (Port 8083)',
+      category: 'BACKEND_MONOLITH',
+      iconName: 'Server',
+    },
+  },
+  {
+    id: 'gemini_ai',
+    type: 'architectureNode',
+    position: { x: 840, y: 440 },
+    data: {
+      nodeId: 'gemini_ai',
+      title: 'Google Gemini AI',
+      subtitle: '24h Cache-First Forecast',
+      category: 'AI_INFERENCE',
+      iconName: 'Sparkles',
+    },
+  },
+  {
+    id: 'postgresql',
+    type: 'architectureNode',
+    position: { x: 1240, y: 120 },
+    data: {
+      nodeId: 'postgresql',
+      title: 'PostgreSQL Database',
+      subtitle: 'fnmf_test (Port 5432)',
+      category: 'DATABASE',
+      iconName: 'Database',
+    },
+  },
+  {
+    id: 'binance_rest',
+    type: 'architectureNode',
+    position: { x: 1240, y: 440 },
+    data: {
+      nodeId: 'binance_rest',
+      title: 'Binance Public REST',
+      subtitle: 'api.binance.com (5 Assets)',
+      category: 'PUBLIC_API',
+      iconName: 'TrendingUp',
+    },
+  },
+];
